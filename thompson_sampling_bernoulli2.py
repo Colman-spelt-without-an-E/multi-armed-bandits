@@ -4,6 +4,9 @@ and Bern(0.6) respectively and we play 1000 rounds in total.
 We employ the method of Thompson sampling.
 """
 
+from infrastructure import *
+from copy import deepcopy
+
 # initialise machines
 machines = [bernoulli_machine(i) for i in [0.33, 0.55, 0.6]]
 
