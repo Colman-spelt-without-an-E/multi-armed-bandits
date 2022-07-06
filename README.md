@@ -4,7 +4,8 @@ The multi-armed bandit problem is a problem in probability theory where limited 
 
 In this repository, 5 strategies are used. They are $\epsilon$-greedy, upper confidence bound (UCB), greedy Bayesian, Thompson sampling, and randomised probability matching (RPM). Each strategy is stored as a class in a Python file, under the folder "algorithms". 
 
-A comparison is also made. 
+Comparisons of strategies are also made under the folder "analysis". 
 
-For details, please refer to M2R_Stats.pdf. In it, non-stochastic gambling and continuum-armed bandit problems are explored as well. 
+For details, please refer to M2R_Stats.pdf. In the pdf, non-stochastic gambling and continuum-armed bandit problems are explored as well. 
+
 This is written in collaboration with Afshein Keshmiri, Justin Lau, Linze Li, Lunzhi Shi, and Lucas Siu. See also Justin's repository https://github.com/n88k/multi-armed-bandit. 
