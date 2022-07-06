@@ -12,6 +12,9 @@ def get_bound(del_i, T, a):
     return sum(temp)
 
 class UCB_bernoulli(Game):
+    """
+    Upper confidence bound approach. 
+    """
     def __init__(self, turns, alpha, *machines):
         super().__init__(turns, *machines)
         self.alpha = alpha
